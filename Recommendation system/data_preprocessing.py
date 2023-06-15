@@ -160,6 +160,6 @@ def save_comment_data_to_db():
                 conn.commit()
 
 
-# preprocess_data()
-# save_company_data_to_db()
+preprocess_data()
+save_company_data_to_db()
 save_comment_data_to_db()
